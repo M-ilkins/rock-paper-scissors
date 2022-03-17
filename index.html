@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="heading-container">
+        <h2>Round Number:<span id="round-number"></span></h2>
+        <h2>Computer Choice:<span id="computer-choice"></span></h2>
+        <h2>Your Choice:<span id="user-choice"></span></h2>
+        <h2>Result:<span id="result"></span></h2>
+        <h2>Your score:<span id="your-score">0</span></h2>
+        <h2>Computer Score:<span id="computer-score">0</span></h2>
+    </div>
+
+    <div id="choices-section">
+        <div>
+            <label for="rock">Rock</label>
+            <input type="radio" name="choice" value="rock" id="rock">
+        </div>
+        <div>
+            <label for="paper">Paper</label>
+            <input type="radio" name="choice" value="paper" id="paper">
+        </div>
+        <div>  
+            <label for="rock">Scissors</label>
+            <input type="radio" name="choice" value="scissors" id="scissors">
+        </div>
+    </div>
+
+    <div id="notification-container">
+      <div id="notification">Please choose your weapon!</div>
+      <button id="start">Play Game!</button>
+      <button id="reload">Restart</button>
+    </div>
+
+    <script src="script.js" charset="utf-8"></script>    
+</body>
+</html>

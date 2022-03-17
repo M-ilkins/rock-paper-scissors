@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    padding: 1%;
+}
+
+input, label, button {
+    cursor: pointer;
+}
+
+button {
+    margin: auto;
+    width: 40%;
+    height: 80%;
+}
+
+#heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+#notification {
+    display: none;
+    position: absolute;
+    right: 70%;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 10%;
+    padding: 1%;
+}
+
+#notification-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 20%;
+    padding: 1%;
+}
+
+#choices-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#choices-section > div {
+    margin: auto;
+}
